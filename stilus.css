@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    border: 1px solid black;
+    border-radius: 1vh;
+    width: 50vw;
+    margin: 25px auto 0px auto;
+}
+
+nav {
+    border: 1px solid black;
+    border-radius: 2vh;
+    width: 90%;
+    margin: 2vh auto 0px auto;
+}
+
+nav div {
+    margin: 1vh auto 3vh auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2%;
+    align-items: center;
+}
+
+nav a {
+    padding: 2vh 15px 2vh 15px;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 0.5vh;
+}
+
+header {
+    background-color: rgb(159, 159, 159);
+    margin: 2vh auto 0px auto;
+    width: 90%;
+    height: 10vh;
+    display: grid;
+    align-items: center;
+}
+
+h1 {
+    color: darkgreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+.felezve {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+    border: 1px solid black;
+    border-radius: 2vh;
+    width: 90%;
+    margin: auto;
+}
+
+footer {
+    border: 1px solid black;
+    border-radius: 2vh;
+    width: 90%;
+    margin: auto;
+}
+footer h2 {
+    border-bottom: 1px dotted black;
+    width: 35%;
+    font-size: 20px;
+    margin: 25px;
+}
+footer a {
+    color: brown;
+    text-decoration: underline dashed;
+}
+footer p {
+    margin: 15px;
+}
+#felso_sor p{
+    margin: 10px;
+}
+#felso_sor {
+    margin-top: 2vh;
+}
+img {
+    width: 95%;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 1vh;
+}
+#also_sor div {
+    background-color: rgb(249, 232, 200);
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 2vh;
+}
+#also_sor h2 {
+    margin: 5vh auto 0 auto;
+    width: 95%;
+    border-bottom: 2px dashed black;
+    color: white;
+}
+#bal h2 {
+    background-color: magenta;
+    padding: 5px;
+}
+#jobb h2 {
+    background-color: rgb(0, 211, 0);
+    padding: 5px;
+}
+ul, ol {
+    margin: 30px;
+    margin-top: 15px;
+}
+#also_sor p {
+    margin: 30px;
+    margin-top: 15px;
+}
+.kek {
+    background-color: lightskyblue;
+}
+span {
+    font-weight: bold;
+}
