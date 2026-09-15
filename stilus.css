@@ -31,13 +31,21 @@ nav div {
     align-items: center;
 }
 
+#nav_elohely div {
+    margin: 1vh auto 3vh auto;
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2%;
+    align-items: center;
+}
+
 nav a {
     padding: 2vh 15px 2vh 15px;
     background-color: darkgreen;
     color: white;
     text-decoration: none;
     font-size: 12px;
-    text-align: center;
     border-radius: 0.5vh;
 }
 
@@ -73,25 +81,33 @@ footer {
     width: 90%;
     margin: auto;
 }
+
 footer h2 {
     border-bottom: 1px dotted black;
     width: 35%;
     font-size: 20px;
     margin: 25px;
+    font-style: italic;
 }
+
 footer a {
     color: brown;
     text-decoration: underline dashed;
 }
+
 footer p {
     margin: 15px;
 }
-#felso_sor p{
+
+#felso_sor p {
     margin: 10px;
+    text-align: justify;
 }
+
 #felso_sor {
     margin-top: 2vh;
 }
+
 img {
     width: 95%;
     border: 3px solid black;
@@ -99,37 +115,103 @@ img {
     padding: 5px;
     margin: 1vh;
 }
+
 #also_sor div {
-    background-color: rgb(249, 232, 200);
+    background-color: rgb(255, 229, 181);
     margin: 5px;
     border: 1px solid black;
     border-radius: 2vh;
 }
+
 #also_sor h2 {
     margin: 5vh auto 0 auto;
     width: 95%;
     border-bottom: 2px dashed black;
     color: white;
 }
+
 #bal h2 {
     background-color: magenta;
     padding: 5px;
 }
+
 #jobb h2 {
     background-color: rgb(0, 211, 0);
     padding: 5px;
 }
-ul, ol {
+
+ul,
+ol {
     margin: 30px;
     margin-top: 15px;
 }
+
 #also_sor p {
     margin: 30px;
     margin-top: 15px;
 }
+
 .kek {
     background-color: lightskyblue;
 }
+
 span {
     font-weight: bold;
+}
+
+#elohely_alsosor h2 {
+    border-left: 5px solid darkgreen;
+    border-bottom: 2px dashed darkgreen;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 15px;
+    color: darkgreen;
+}
+
+#elohely_alsosor p {
+    margin-left: 30px;
+    margin-top: 15px;
+    margin: 15px 30px 30px 15px;
+    text-align: justify;
+}
+
+#elohely_alsosor {
+    border: 1px solid black;
+    border-radius: 2vh;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#elohely_alsosor div {
+    border: 1px solid black;
+    border-radius: 2vh;
+    background-color: rgb(255, 229, 181);
+}
+
+@media screen and (max-width: 890px) {
+    nav div, #nav_elohely div {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 8%;
+    }
+    nav {
+        height: 32vh;
+    }
+    #nav_elohely {
+        height: 16vh;
+    }
+
+    .felezve {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        width: 100%;
+        border: none;
+    }
 }
