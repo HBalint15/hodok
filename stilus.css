@@ -12,7 +12,7 @@ main {
     border: 1px solid black;
     border-radius: 1vh;
     width: 50vw;
-    margin: 25px auto 0px auto;
+    margin: 25px auto 50px auto;
 }
 
 nav {
@@ -106,14 +106,15 @@ footer p {
 
 #felso_sor {
     margin-top: 2vh;
+    padding: 1vw;
 }
 
 img {
-    width: 95%;
+    width: 100%;
     border: 3px solid black;
     border-radius: 15px;
     padding: 5px;
-    margin: 1vh;
+    text-align: center;
 }
 
 #also_sor div {
